@@ -58,6 +58,12 @@ Database Structure:
         |--round: 
 
 Main requirements:
-- Query data point by using the combinations of SELECT ,JOIN (FULL, LEFT, RIGHT and INNER),COUNT, SUM, AVG, DISTINCT, USING, HAVING, WHERE, ORDER BY
+- Retrieve data from csv using terminal
+- Create database and tables manually
+    - Add column and create references between tables
+- Push data point from the csv file to psql databse
+- Query data point based on requests by using the combinations of SELECT ,JOIN (FULL, LEFT, RIGHT and INNER),COUNT, SUM, AVG, DISTINCT, USING, HAVING, WHERE, ORDER BY, and some basic regular expressions.
+    - Sum of all score by 2 winner and opponents from all match
+    - Name of all unique winning teams 
 
-(Updating...)
+(Keep updating...)
