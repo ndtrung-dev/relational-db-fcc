@@ -10,11 +10,13 @@ Link to my certification [(upadting...)]()
 
 ## 1. Celestial Bodies Database
 
-Code: [universe.sql]()
+Answer: [1_celestial_bodies_db]()
 
-> Summary: To complete this project, learners are required to know how to create and connect to database, create tables with different columns, set up column type, set up PRIMARY and FOREIGN keys to regard relational data points, INSERT data rows into tables.
+> Objective: Know how to create and connect to database, create tables with different columns, set up column type, set up PRIMARY and FOREIGN keys to regard relational data points, INSERT data rows into tables.
 
-DATABASE STRUCTURE:
+### Details:
+
+Database Structure
 
     universe: database
     |--galaxy
@@ -23,7 +25,7 @@ DATABASE STRUCTURE:
     |--moon
     |--dummy_table
 
-Some requirements:
+Main requirements:
 
 - Create <code>universe</code>, <code>galaxy</code>, <code>star</code>, <code>planet</code>, <code>moon</code> and <code>dummy_table</code>
 - Each table must have at least 3 columns
@@ -34,5 +36,28 @@ Some requirements:
 Notes:
 
 - In this project, I used some javascript codes to rapidly generate the bundle of data rows.
+
+## 2. World Cup Database
+
+Answers: [2_world_cup_db]()
+
+> Objective: Know how to using bash script to upload data from csv file to database, querry data points based on requirements.
+
+Database Structure:
+
+    worldcup: database
+    |--teams: table
+    |   |--team_id:
+    |   |--name:
+    |--games:
+        |--winner_id: 
+        |--winner_goals: 
+        |--opponent_id: 
+        |--opponent_goals:
+        |--year:
+        |--round: 
+
+Main requirements:
+- Query data point by using the combinations of SELECT ,JOIN (FULL, LEFT, RIGHT and INNER),COUNT, SUM, AVG, DISTINCT, USING, HAVING, WHERE, ORDER BY
 
 (Updating...)
