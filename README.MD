@@ -10,7 +10,7 @@ Link to my certification [(upadting...)]()
 
 ## 1. Celestial Bodies Database
 
-Answer: [1_celestial_bodies_db]()
+Answer: [1_celestial_bodies_db](https://github.com/ndtrung-dev/relational-db-fcc/tree/main/1_celestial_bodies_db)
 
 > <code>Objective</code>: Know how to create and connect to database, create tables with different columns, set up column type, set up <code>PRIMARY</code> and <code>FOREIGN</code> keys to regard relational data points, <code>INSERT</code> data rows into tables.
 
@@ -39,7 +39,7 @@ Notes:
 
 ## 2. World Cup Database
 
-Answers: [2_world_cup_db]()
+Answers: [2_world_cup_db](https://github.com/ndtrung-dev/relational-db-fcc/tree/main/2_world_cup_db)
 
 > <code>Objective</code>: Know how to using bash script to upload data from csv file to database, querry data points based on requirements.
 
@@ -68,7 +68,7 @@ Main requirements:
 
 ## 3. Salon Appointment Scheduler
 
-Answer: [3_salon_appointment_scheduler]()
+Answer: [3_salon_appointment_scheduler](https://github.com/ndtrung-dev/relational-db-fcc/tree/main/3_salon_appointment_scheduler)
 
 > <code>Objective</code>: Know how to use bash to create a basic form using bash and then upload response to database
 
