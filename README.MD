@@ -80,13 +80,13 @@ Database Structure:
     |   |--name:
     |   |--phone:
     |--services:
-    |  |--service-id:
-    |  |--name:
+    |   |--service-id:
+    |   |--name:
     |--appointments:
-       |--customer-id: refer customers(customer_id)
-       |--service-id: refer services(service_idƒ)
-       |--appointment-id:
-       |--time:
+        |--customer-id: refer customers(customer_id)
+        |--service-id: refer services(service_idƒ)
+        |--appointment-id:
+        |--time:
 
 Main requirements:
 - Create database and tables, then insert some data point into <code>services</code> table
@@ -97,5 +97,37 @@ Main requirements:
     - Upload answers to database
 - Using bash command and pipeline technique to properly format and display data, <u>_eg:_</u> <code>grep</code>, <code>sed</code>, <code>cat</code>, etc...
 
+## 4. Periodic Table Databse
+
+Answer: [4_periodic_table_db](https://github.com/ndtrung-dev/relational-db-fcc/tree/main/4_periodic_table_db)
+
+> <code>Objective</code>: Know how to standardize simple database,write a bash-script file to query data point and present them in terminal.
+
+Database Structure:
+
+    periodic_table: database
+    |--elements:
+    |   |--atomic_id:
+    |   |--name:
+    |   |--symbol:
+    |--properties: 
+    |   |--atomic_id: refer elements(atomic_id) 
+    |   |--atomic_mass: renamed from weight
+    |   |--melting_point_celsius: renamed from melting_point
+    |   |--type_id: refer types(type_id)
+    |   |--(type)[removed later]
+    |--types:
+        |--type_id:
+        |--type:
+
+Main requirements:
+- Clean up database and add missing data point:
+    - Reformat data point using <code>DECIMAL</code>, <code>INITCAP</code>
+    - Include proper constraints (like <code>UNIQUE</code>, <code>NOT NULL</code>) and <code>KEY</code> (both <code>FOREIGN</code> and <code>PRIMARY</code>)
+    - Create <code>types</code> to properly organize database
+    - Rename column name for better descriptive details
+- Write bash script to query and display data points:
+    - Process type logics for better query command
+    - Practice pipelines for better processing responses
 
 (Keep updating...)
