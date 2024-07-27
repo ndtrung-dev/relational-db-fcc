@@ -4,9 +4,9 @@
 
 This repo contains my notes for 5 projects as a fulfillment a the requirements for Relational Database Certificate provided by <code>[freecodecamp](https://www.freecodecamp.org)</code>.
 
-This certification includes several small courses and 5 major projects, starting with basic Bash commands and progressed to advanced techniques using the terminal; using PostgreSQL and SQL to handle with relational databases; and using Git for version control. Find more [here](https://www.freecodecamp.org/learn/relational-database).
+This certification includes several small courses and 5 major projects, starting with basic Bash commands and progressed to advanced techniques using the terminal; using PostgreSQL and SQL to handle with relational databases; and using Git for version control. Find more details [here](https://www.freecodecamp.org/learn/relational-database).
 
-Link to my certification [(upadting...)]()
+Link to [my certification](https://www.freecodecamp.org/certification/ndtrung-dev/relational-database-v8) 
 
 ## 1. Celestial Bodies Database
 
