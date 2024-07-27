@@ -12,7 +12,7 @@ Link to my certification [(upadting...)]()
 
 Answer: [1_celestial_bodies_db](https://github.com/ndtrung-dev/relational-db-fcc/tree/main/1_celestial_bodies_db)
 
-> <code>Objective</code>: Know how to create and connect to database, create tables with different columns, set up column type, set up <code>PRIMARY</code> and <code>FOREIGN</code> keys to regard relational data points, <code>INSERT</code> data rows into tables.
+> <code>Objective</code>: Build a _Celestial Bodies Database_ from scratch using basic PostgreSQL
 
 ### Details:
 
@@ -25,8 +25,7 @@ Database Structure
     |--moon
     |--dummy_table
 
-Main requirements:
-
+Main tasks:
 - Create <code>universe</code>, <code>galaxy</code>, <code>star</code>, <code>planet</code>, <code>moon</code> and <code>dummy_table</code>
 - Each table must have at least 3 columns
 - Some types must be used to configue columns: <code>INT</code>, <code>TEXT</code>, <code>VARCHAR</code>, <code>BOOLEAN</code>, <code>SERIAL</code>
@@ -41,7 +40,7 @@ Notes:
 
 Answers: [2_world_cup_db](https://github.com/ndtrung-dev/relational-db-fcc/tree/main/2_world_cup_db)
 
-> <code>Objective</code>: Know how to using bash script to upload data from csv file to database, querry data points based on requirements.
+> <code>Objective</code>: Creat a bash-script file that uploads data points to _World Cup Database_ and another to query data point based on requests
 
 Database Structure:
 
@@ -57,7 +56,7 @@ Database Structure:
         |--year:
         |--round: 
 
-Main requirements:
+Main tasks:
 - Retrieve data from csv using terminal
 - Create database and tables manually
     - Add column and create references between tables
@@ -70,7 +69,7 @@ Main requirements:
 
 Answer: [3_salon_appointment_scheduler](https://github.com/ndtrung-dev/relational-db-fcc/tree/main/3_salon_appointment_scheduler)
 
-> <code>Objective</code>: Know how to use bash to create a basic form using bash and then upload response to database
+> <code>Objective</code>: Creat a bash-based form to record customer datum and upload those responses to database 
 
 Database Structure:
 
@@ -88,7 +87,7 @@ Database Structure:
         |--appointment-id:
         |--time:
 
-Main requirements:
+Main tasks:
 - Create database and tables, then insert some data point into <code>services</code> table
 - Create a functional bash form and generate responses based on answers:
     - Write questions to terminal and read human answers
@@ -101,7 +100,7 @@ Main requirements:
 
 Answer: [4_periodic_table_db](https://github.com/ndtrung-dev/relational-db-fcc/tree/main/4_periodic_table_db)
 
-> <code>Objective</code>: Know how to standardize simple database,write a bash-script file to query data point and present them in terminal.
+> <code>Objective</code>: Standardize a provided periodic table and query data point based on requests 
 
 Database Structure:
 
@@ -120,7 +119,7 @@ Database Structure:
         |--type_id:
         |--type:
 
-Main requirements:
+Main tasks:
 - Clean up database and add missing data point:
     - Reformat data point using <code>DECIMAL</code>, <code>INITCAP</code>
     - Include proper constraints (like <code>UNIQUE</code>, <code>NOT NULL</code>) and <code>KEY</code> (both <code>FOREIGN</code> and <code>PRIMARY</code>)
@@ -130,4 +129,32 @@ Main requirements:
     - Process type logics for better query command
     - Practice pipelines for better processing responses
 
-(Keep updating...)
+## 5. Number_guessing_game
+
+Answer: [5_number_guessing_game](https://github.com/ndtrung-dev/relational-db-fcc/tree/main/5_number_guessing_game)
+
+> <code>Objective</code>: Create from scrath a database to store user infomations and game records; and create a guessing number game using bash scripts that upload data to database
+
+Database Structure:
+
+    number_guess:
+    |--users:
+    |   |--user_id:
+    |   |--username:
+    |--games:
+        |--game_id:
+        |--user_id: refer users(user_id)
+        |--guesses:
+
+Main tasks:
+- Create a database from scratch, inclusively declaring proper relations and constraints
+    - Design the structures of database and tables
+    - Declare variable with proper constraints
+    - Create dummy data point to tests
+- Create a functional form using bash script:
+    - Identify username
+    - Read and write proper responses to terminal
+    - Upload complete games info to database
+
+
+
